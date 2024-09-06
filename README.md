@@ -20,9 +20,9 @@ To get started, follow these steps:
 
 2. Clone the jupyter-dock repository to your local machine.
 
-        ```
-        git clone git@github.com:dkarneman/jupyter-dock.git
-        ```
+    ```
+    git clone git@github.com:dkarneman/jupyter-dock.git
+    ```
 
 3. Navigate to the repository directory and open the `Dockerfile` and `requirements.txt`.
 
@@ -37,8 +37,8 @@ To get started, follow these steps:
 
 6. The terminal output will include links with tokens like this: `http://127.0.0.1:8888/tree?token=691e017ddd1115fd16b5125f62e3947630ed50cc5d11b23e`. Simply click one to open the Juptyer notebook in a browser.
 
-7. You are now ready to create and run Jupyter notebooks using jupyter-dock! The `work` folder in the repository directory is mounted as a volume in the Jupyter notebook server, allowing you to access and save files across different environments.
+7. You are now ready to create and run Jupyter notebooks using jupyter-dock! The `work` folder in the repository directory is mounted as a volume in the Jupyter notebook server, allowing you to access and save files to a local directory.
 
-8. To stop the Jupyter notebook server, press `Ctrl+C` in the terminal where you started the server. Optionally, you can run `docker-compose down` to stop and remove the containers. This is useful if you ran `docker-compose up` with the `-d` detached flag.
+8. To stop the Jupyter notebook server, press `Ctrl+C` in the terminal where you started the server. Optionally, you can run `docker-compose down` to stop and remove the containers. This is useful if you initially ran `docker-compose up` with the `-d` detached flag.
 
 I've included a sample notebook examining some home electricity data in the `work` folder. Feel free to explore it and experiment with your own notebooks!
